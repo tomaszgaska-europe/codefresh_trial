@@ -1,0 +1,12 @@
+apiVersion: csdp.codefresh.io/v1
+kind: ApplicationConfiguration
+metadata:
+  name: cf-deployer
+spec:
+  applicationSourceSelector:
+    matchLabels:
+      app: cf-deployer
+  priority: 2
+  versionSource:
+    file: service.yaml
+    jsonPath: version
