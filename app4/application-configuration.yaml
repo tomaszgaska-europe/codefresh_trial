@@ -5,7 +5,7 @@ metadata:
 spec:
   applicationSourceSelector:
     matchLabels:
-      app: cf-deployer
+      app: app4
   priority: 2
   versionSource:
     file: service.yaml
